@@ -1,0 +1,37 @@
+{
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "string.quoted.docstring.multi.python", // For docstrings in Python
+                "settings": {
+                    "foreground": "#33ff8f" // Replace with your desired color
+                }
+            },
+            {
+                "scope": "comment.line.number-sign", // For comments starting with # (e.g., in Python)
+                "settings": {
+                    "foreground": "#15b4ae" // Replace with your desired color
+                },
+
+            },
+            {
+                "scope": "comment.line.double-slash", // For single-line comments (//)
+                "settings": {
+                    "foreground": "#e45b3c" // Replace with your desired color
+                }
+
+            },
+
+            {
+                "scope": "comment.block", // For block comments (/* ... */)
+                "settings": {
+                    "foreground": "#33FF57" // Replace with your desired color
+                }
+
+            }
+        ]
+    }
+    
+    
+}
