@@ -1,0 +1,13 @@
+prefix=/Users/robel/Documents/DSML_Journey/streamlit_basics/venv
+exec_prefix=/Users/robel/Documents/DSML_Journey/streamlit_basics/venv
+libdir=/Users/robel/Documents/DSML_Journey/streamlit_basics/venv/lib
+sharedlibdir=/Users/robel/Documents/DSML_Journey/streamlit_basics/venv/lib
+includedir=/Users/robel/Documents/DSML_Journey/streamlit_basics/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
