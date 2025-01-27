@@ -1,0 +1,3 @@
+[submodule "streamlit_basics/streamlit_practice"]
+	path = streamlit_basics/streamlit_practice
+	url = https://github.com/Robelabcd/Streamlit_practice.git
